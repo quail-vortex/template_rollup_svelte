@@ -1,0 +1,34 @@
+{
+  "name": "rollup_web_sep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "autoprefixer": "^9.8.4",
+    "core-js": "^3.6.5",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.32",
+    "rollup": "^2.18.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-postcss": "^3.1.2",
+    "rollup-plugin-svelte": "^5.2.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "sass": "^1.26.9",
+    "stylefmt": "^6.0.3",
+    "svelte": "^3.23.2",
+    "svelte-preprocess": "^3.9.11"
+  }
+}
